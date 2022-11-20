@@ -9,14 +9,14 @@ function birthdayCakeCandles(candles) {
    for(let i = 0; i < candles.length; i++){
        if( candles[i] > mayor ){
         mayor=candles[i];
-        console.log(mayor)
+       
            biggestCandle=[];
            biggestCandle.push(candles[i]);
        }else if(candles[i] == mayor){
         biggestCandle.push(candles[i]);
        }
    }
-   console.log(biggestCandle.length)
+  
    return biggestCandle.length;
 
 }
