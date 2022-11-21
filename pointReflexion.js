@@ -14,6 +14,7 @@ function findPoint(px, py, qx, qy) {
   let yCoord=0;
   xCoord = (2*qx - px);
   yCoord = (2*qy - py);
+  console.log(xCoord)
     return [xCoord,yCoord];
 
 }
