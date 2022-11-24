@@ -23,31 +23,30 @@ oranges = [ 5, -6 ]
              |
  */
 
-const s=7
-const t=11
-const a=5// aca esta en manzano
-const b=15// aca el naranjo
-const apples =[ -2, 2, 1 ]
-const oranges= [ 5, -6 ]
-  function countApplesAndOranges(s, t, a, b, apples, oranges) {
-                    // Write your code here
-                    let houseApples =0;
-                    let houseOranges =0;
+const s = 7
+const t = 11
+const a = 5// aca esta en manzano
+const b = 15// aca el naranjo
+const apples = [-2, 2, 1]
+const oranges = [5, -6]
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+    // Write your code here
+    let houseApples = 0;
+    let houseOranges = 0;
 
-    for( let i =0; i < apples.length ; i++ ){
+    for (let i = 0; i < apples.length; i++) {
         console.log((apples[i] + a))
-        if( (apples[i] + a) >= s && (apples[i] + a) <= t  ){
+        if ((apples[i] + a) >= s && (apples[i] + a) <= t) {
 
             houseApples++;
-           }
-    } 
-    for( let i =0; i < oranges.length ; i++ ){
-        if( (oranges[i] + b) >= s && (oranges[i] + b) <= t  ){
+        }
+    }
+    for (let i = 0; i < oranges.length; i++) {
+        if ((oranges[i] + b) >= s && (oranges[i] + b) <= t) {
             houseOranges++;
         }
- }                 
-      console.log(houseOranges)
-      console.log(houseApples)          
- }
- countApplesAndOranges(s, t, a, b, apples, oranges);
-            
+    }
+    console.log(houseApples)
+    console.log(houseOranges)
+}
+countApplesAndOranges(s, t, a, b, apples, oranges);
