@@ -29,3 +29,4 @@ console.log(indice)
 }
 let arr = [1,1,1, 4, 4, 4, 5, 3,3,3]
 migratoryBirds(arr)
+
