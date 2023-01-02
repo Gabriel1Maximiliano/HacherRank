@@ -24,7 +24,7 @@ function breakingRecords(scores) {
    min.push(value);
    
    console.log(min)
-   }
+   } 
 }
 const myLowerSet = new Set(min);
 const myHigherSet= new Set(max);
